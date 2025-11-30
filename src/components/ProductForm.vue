@@ -1,6 +1,6 @@
 <template>
   <div class="action-button">
-    <button @click="saveProduct" class="button">Save Product</button>
+    <button @click="saveProduct" class="sav-prod-btn">Save Product</button>
   </div>
   <br/>
   <div v-if="showValidationErrors" class="error">
@@ -320,5 +320,18 @@ td {
 
 .image-container.loading .overlay {
   opacity: 1;
+}
+
+.sav-prod-btn {
+  background-color: #0046be;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 </style>
