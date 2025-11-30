@@ -1,7 +1,7 @@
 <template>
   <div class="action-button">
     <router-link to="/product/add">
-      <button class="button">Add Product</button>
+      <button class="add-prod-btn">Add Product</button>
     </router-link>
   </div>
   <div class="product-list">
@@ -43,4 +43,18 @@ a {
 .product-list {
   text-align: left;
 }
+
+.add-prod-btn {
+  background-color: #0046be;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 </style>
