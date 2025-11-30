@@ -41,7 +41,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #ffc300;
-  color: #lalf29;
+  color: #000;
   padding-top: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -64,6 +64,7 @@ nav img {
 .nav-links {
   display: flex;
   list-style: none;
+  color: #000;
 }
 
 .logo {
